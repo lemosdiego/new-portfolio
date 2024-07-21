@@ -20,9 +20,9 @@ const AboutMePage = () => {
                     <>
                         <Typography variant='h2' className={Styles.h2}>Sobre Mim</Typography>
                         <Typography className={Styles.p} variant='body1'>
-                            Sou Washington, um programador front-end formado em Análise e Desenvolvimento de Sistemas e atualmente cursando Engenharia de Software. Natural de Pernambuco, atualmente divido meu tempo entre Recife e São Paulo, cidade pela qual me apaixonei desde a primeira visita.
+                            Sou um programador front-end formado em Análise e Desenvolvimento de Sistemas e atualmente cursando Engenharia de Software. Natural de Pernambuco, atualmente divido meu tempo entre Recife e São Paulo, cidade pela qual me apaixonei desde a primeira visita.
                             Minha jornada na programação começou na metade de 2021. No início, enfrentei algumas dificuldades, mas com persistência e dedicação, descobri minha capacidade e paixão pela área. A programação representou uma virada de página na minha vida, proporcionando crescimento pessoal e profissional.
-                            Meu objetivo é alcançar meu tão sonhado Sim, pois sei que tenho a capacidade de sempre evoluir e me aprimorar. O front-end é apenas o começo de uma jornada de sucesso, e estou determinado a continuar avançando e conquistando meu espaço no mundo da tecnologia.
+                            Meu objetivo é alcançar meu tão sonhado sucesso, pois sei que tenho a capacidade de sempre evoluir e me aprimorar. O front-end é apenas o começo de uma jornada de sucesso, e estou determinado a continuar avançando e conquistando meu espaço no mundo da tecnologia.
                         </Typography>
                     </>
                 );
