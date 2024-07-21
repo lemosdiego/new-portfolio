@@ -1,0 +1,271 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    .containerCard {
+        width: 85%;
+        height: auto;
+        background: var(--card-background);
+        border-radius: 10px;
+        color: var(--card-text-color);
+        color: var(--card-description-color);
+    }
+
+    .containerImage {
+        height: 40%;
+    }
+
+    .containerDescription {
+        height: 40%;
+    }
+
+    .containerButton {
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .button {
+        width: 90px;
+        height: 30px;
+        background-color: #e53939;
+        color: #fff;
+        font-size: 0.7rem;
+    }
+
+    .button:hover {
+        background-color: #e539398b;
+    }
+
+    .modal {
+        width: 90%;
+        height: auto;
+        background-color: var(--modal-background);
+        transition: background-color 0.3s ease;
+    }
+
+    .h3 {
+        font-size: 1.4rem;
+
+    }
+
+    .p {
+        font-size: 0.9rem;
+    }
+
+    [data-theme="light"] .containerCard {
+        --card-background: #ebe2e1;
+        --card-text-color: #000;
+        --card-description-color: #000;
+    }
+
+    [data-theme="dark"] .containerCard {
+        --card-background: #333333;
+        --card-description-color: #fff;
+    }
+
+    [data-theme="light"] .modal {
+        --modal-background: #ebe2e1;
+        --card-text-color: #000;
+    }
+
+    [data-theme="dark"] .modal {
+        --modal-background: #333333;
+        --card-text-color: #fff;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .containerCard {
+        width: 400px;
+        height: auto;
+        background: var(--card-background);
+        border-radius: 10px;
+        color: var(--card-text-color);
+        color: var(--card-description-color);
+    }
+
+    .containerImage {
+        height: 45%;
+    }
+
+    .containerDescription {
+        height: 35%;
+    }
+
+    .containerButton {
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .button {
+        width: 95px;
+        height: 32px;
+        background-color: #e53939;
+        color: #fff;
+        font-size: 0.8rem;
+    }
+
+    .button:hover {
+        background-color: #e539398b;
+    }
+
+    .modal {
+        width: 80%;
+        height: auto;
+        background-color: var(--modal-background);
+        transition: background-color 0.3s ease;
+    }
+
+    .h3 {
+        font-size: 1.4rem;
+    }
+
+    [data-theme="light"] .containerCard {
+        --card-background: #ebe2e1;
+        --card-text-color: #000;
+        --card-description-color: #000;
+    }
+
+    [data-theme="dark"] .containerCard {
+        --card-background: #333333;
+        --card-description-color: #fff;
+    }
+
+    [data-theme="light"] .modal {
+        --modal-background: #ebe2e1;
+        --card-text-color: #000;
+    }
+
+    [data-theme="dark"] .modal {
+        --modal-background: #333333;
+        --card-text-color: #fff;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    .containerCard {
+        width: 340px;
+        height: 420px;
+        background: var(--card-background);
+        border-radius: 10px;
+        color: var(--card-text-color);
+        color: var(--card-description-color);
+    }
+
+    .containerImage {
+        height: 48%;
+    }
+
+    .containerDescription {
+        height: 37%;
+    }
+
+    .containerButton {
+        height: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .button {
+        width: 100px;
+        height: 35px;
+        background-color: #e53939;
+        color: #fff;
+    }
+
+    .button:hover {
+        background-color: #e539398b;
+    }
+
+    .modal {
+        background-color: var(--modal-background);
+        transition: background-color 0.3s ease;
+    }
+
+    [data-theme="light"] .containerCard {
+        --card-background: #ebe2e1;
+        --card-text-color: #000;
+        --card-description-color: #000;
+    }
+
+    [data-theme="dark"] .containerCard {
+        --card-background: #333333;
+        --card-description-color: #fff;
+    }
+
+    [data-theme="light"] .modal {
+        --modal-background: #ebe2e1;
+        --card-text-color: #000;
+    }
+
+    [data-theme="dark"] .modal {
+        --modal-background: #333333;
+        --card-text-color: #fff;
+    }
+}
+
+@media (min-width: 1201px) {
+    .containerCard {
+        width: 350px;
+        height: 450px;
+        background: var(--card-background);
+        border-radius: 10px;
+        color: var(--card-text-color);
+        color: var(--card-description-color);
+    }
+
+    .containerImage {
+        height: 50%;
+    }
+
+    .containerDescription {
+        height: 35%;
+    }
+
+    .containerButton {
+        height: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .button {
+        width: 100px;
+        height: 35px;
+        background-color: #e53939;
+        color: #fff;
+        font-size: 12px;
+    }
+
+    .button:hover {
+        background-color: #e539398b;
+    }
+
+    .modal {
+        background-color: var(--modal-background);
+        transition: background-color 0.3s ease;
+    }
+
+    [data-theme="light"] .containerCard {
+        --card-background: #ebe2e1;
+        --card-text-color: #000;
+        --card-description-color: #000;
+    }
+
+    [data-theme="dark"] .containerCard {
+        --card-background: #333333;
+        --card-description-color: #fff;
+    }
+
+    [data-theme="light"] .modal {
+        --modal-background: #ebe2e1;
+        --card-text-color: #000;
+    }
+
+    [data-theme="dark"] .modal {
+        --modal-background: #333333;
+        --card-text-color: #fff;
+    }
+}

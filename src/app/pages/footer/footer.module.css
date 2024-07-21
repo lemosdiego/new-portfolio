@@ -1,0 +1,63 @@
+/* Extra small devices (portrait phones, 320px to 480px) */
+@media (min-width: 320px) and (max-width: 480px) {
+    .containerFooter {
+        margin-top: 20px;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .copy {
+        font-size: 0.8rem;
+    }
+}
+
+/* Small devices (landscape phones, 481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .containerFooter {
+        margin-top: 25px;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .copy {
+        font-size: 0.9rem;
+    }
+}
+
+/* Medium devices (tablets, 769px to 1200px) */
+@media (min-width: 769px) and (max-width: 1200px) {
+    .containerFooter {
+        margin-top: 30px;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* Large devices (desktops, 1201px and up) */
+@media (min-width: 1201px) {
+    .containerFooter {
+        margin-top: 40px;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.containerFooter {
+    background-color: var(--footer-background);
+}
+
+[data-theme="light"] .containerFooter {
+    --footer-background: #f0ecf0;
+}
+
+[data-theme="dark"] .containerFooter {
+    --footer-background: #333333;
+}

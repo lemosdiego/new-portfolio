@@ -1,0 +1,258 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    .containerAbout {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .containerDescription {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        border-radius: 20px;
+    }
+
+    .containerPagination {
+        width: 95%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 70px;
+    }
+
+    .h2 {
+        font-size: 2.1rem;
+        margin-top: 20px;
+    }
+
+    .p {
+        width: 90%;
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .menu {
+        width: auto;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .button {
+        width: 90px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .containerAbout {
+        width: 100%;
+        height: 100vh;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .containerDescription {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        border-radius: 20px;
+    }
+
+    .containerPagination {
+        width: 90%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .h2 {
+        font-size: 2.5rem;
+        margin-top: 20px;
+    }
+
+    .p {
+        width: 90%;
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .menu {
+        width: 90%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .button {
+        width: 100px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    .containerAbout {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .containerDescription {
+        width: 70%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        border-radius: 20px;
+    }
+
+    .containerPagination {
+        width: 85%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80px;
+    }
+
+    .h2 {
+        font-size: 3rem;
+        margin-top: 20px;
+    }
+
+    .p {
+        width: 90%;
+        font-size: 1.1rem;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .menu {
+        width: 80%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .button {
+        width: 110px;
+    }
+}
+
+@media (min-width: 1201px) {
+    .containerAbout {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .containerDescription {
+        width: 60%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        border-radius: 20px;
+    }
+
+    .containerPagination {
+        width: 80%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .h2 {
+        font-size: 3rem;
+        margin-top: 20px;
+    }
+
+    .p {
+        width: 70%;
+        font-size: 1.1rem;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .menu {
+        width: 40%;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .button {
+        width: 100px;
+    }
+
+}
+
+.button {
+    background-color: #e53939;
+}
+
+.button:hover {
+    background-color: #e539398b;
+}
+
+
+.containerAbout {
+    background-color: var(--containerAbout-background);
+}
+
+[data-theme="light"] .containerAbout {
+    --containerAbout-background: #f0ecf0;
+}
+
+[data-theme="dark"] .containerAbout {
+    --containerAbout-background: #121212;
+
+}
+
+.containerDescription {
+    background-color: var(--containerDescription-background);
+}
+
+[data-theme="light"] .containerDescription {
+    --containerDescription-background: #fff;
+}
+
+[data-theme="dark"] .containerDescription {
+    --containerDescription-background: #333333;
+
+}

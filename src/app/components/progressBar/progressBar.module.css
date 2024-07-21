@@ -1,0 +1,118 @@
+/* Extra small devices (portrait phones, 320px to 480px) */
+@media (min-width: 320px) and (max-width: 480px) {
+    .container {
+        width: 95%;
+    }
+
+    .containerText {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+
+    .containerProgress {
+        width: 100%;
+        height: 20px;
+        border-radius: 4px;
+    }
+
+    .progress {
+        height: 100%;
+        border-radius: 4px;
+    }
+}
+
+/* Small devices (landscape phones, 481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .containerText {
+        width: 100%;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .containerProgress {
+        width: 100%;
+        height: 22px;
+        border-radius: 4px;
+    }
+
+    .progress {
+        height: 100%;
+        border-radius: 4px;
+    }
+}
+
+/* Medium devices (tablets, 769px to 1200px) */
+@media (min-width: 769px) and (max-width: 1200px) {
+    .container {
+        width: 85%;
+    }
+
+    .containerText {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .containerProgress {
+        width: 100%;
+        height: 24px;
+        border-radius: 4px;
+    }
+
+    .progress {
+        height: 100%;
+        border-radius: 4px;
+    }
+}
+
+/* Large devices (desktops, 1201px and up) */
+@media (min-width: 1201px) {
+    .container {
+        width: 80%;
+    }
+
+    .containerText {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .containerProgress {
+        width: 100%;
+        height: 25px;
+        border-radius: 4px;
+    }
+
+    .progress {
+        height: 100%;
+        border-radius: 4px;
+    }
+}
+
+.containerProgress {
+    background-color: var(--containerProgress-background);
+}
+
+[data-theme="light"] .containerProgress {
+    --containerProgress-background: #f0ecf0;
+}
+
+[data-theme="dark"] .containerProgress {
+    --containerProgress-background: #333333;
+
+}
