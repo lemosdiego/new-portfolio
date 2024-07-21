@@ -6,6 +6,7 @@ import { Box, Switch, Typography } from '@mui/material';
 import Image from 'next/image';
 import Menu from '@/app/components/menu/Menu';
 import DarkModeToggle from '@/app/components/theme/Theme';
+import Link from 'next/link';
 
 const Header = () => {
     function abrirMenu() {
@@ -78,36 +79,44 @@ const Header = () => {
             <header className={Styles.header} id='header'>
                 <Box className={Styles.networksContainer}>
                     <Box className={Styles.networks}>
-                        <Image
-                            src="/whatsapp.svg"
-                            alt='logo instagram'
-                            layout='fill'
-                            objectFit='contain'
-                        />
+                        <Link href="https://WA.me/5581982383803" target='_blank'>
+                            <Image
+                                src="/whatsapp.svg"
+                                alt='logo instagram'
+                                layout='fill'
+                                objectFit='contain'
+                            />
+                        </Link>
                     </Box>
                     <Box className={Styles.networks}>
-                        <Image
-                            src="/linkedin.svg"
-                            alt='logo instagram'
-                            layout='fill'
-                            objectFit='contain'
-                        />
+                        <Link href="https://www.linkedin.com/in/washington-lemos-033177186/" target='_blank'>
+                            <Image
+                                src="/linkedin.svg"
+                                alt='logo instagram'
+                                layout='fill'
+                                objectFit='contain'
+                            />
+                        </Link>
                     </Box>
                     <Box className={Styles.networks}>
-                        <Image
-                            src="/github.svg"
-                            alt='logo instagram'
-                            layout='fill'
-                            objectFit='contain'
-                        />
+                        <Link href="https://github.com/lemosdiego" target='_blank'>
+                            <Image
+                                src="/github.svg"
+                                alt='logo Github'
+                                layout='fill'
+                                objectFit='contain'
+                            />
+                        </Link>
                     </Box>
                     <Box className={Styles.networks}>
-                        <Image
-                            src="/insta.svg"
-                            alt='logo instagram'
-                            layout='fill'
-                            objectFit='contain'
-                        />
+                        <Link href="https://www.instagram.com/washington.lemos_/?hl=pt-br" target='_blank'>
+                            <Image
+                                src="/insta.svg"
+                                alt='logo instagram'
+                                layout='fill'
+                                objectFit='contain'
+                            />
+                        </Link>
                     </Box>
                 </Box>
                 <Box className={Styles.containerNav}>
