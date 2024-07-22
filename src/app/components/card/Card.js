@@ -41,10 +41,10 @@ const ImgMediaCard = ({ cardData }) => {
                     image={cardData.image}
                 />
                 <CardContent className={Styles.containerDescription}>
-                    <Typography gutterBottom variant="h5" component="div">
+                    <Typography gutterBottom variant="h5" component="div" className={Styles.h5}>
                         {cardData.title}
                     </Typography>
-                    <Typography variant="body2" >
+                    <Typography variant="body2" className={Styles.p}>
                         {cardData.description}
                     </Typography>
                 </CardContent>

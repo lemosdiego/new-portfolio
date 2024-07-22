@@ -348,7 +348,7 @@
 }
 
 [data-theme="dark"] .header {
-    --header-background: #333333fb;
+    --header-background: #2b2a2afb;
 }
 
 .networks {
@@ -361,4 +361,9 @@
 
 [data-theme="dark"] .networks:hover {
     --networks-background: #ebe2e1d6;
+}
+
+.networks:hover {
+    transform: scale(1.2);
+
 }

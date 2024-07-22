@@ -152,3 +152,7 @@
     color: #e5393982;
     font-weight: 400;
 }
+
+.ul li:hover {
+    transform: scale(1.2);
+}

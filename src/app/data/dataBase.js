@@ -50,7 +50,7 @@ export const dataBase = [
         buttonText2: "Repositório",
         buttonLink2: "https://exemplo.com/visitar/card3",
         buttonText3: "Deploy",
-        buttonLink3: "https://imc-delta-seven.vercel.app/"
+        buttonLink3: "https://tarefas-diarias-omega.vercel.app/"
     },
     {
         id: 5,
@@ -92,11 +92,11 @@ export const dataBase = [
         buttonText2: "Repositório",
         buttonLink2: "https://exemplo.com/visitar/card3",
         buttonText3: "Deploy",
-        buttonLink3: "https://previsao-do-tempo-mu.vercel.app/"
+        buttonLink3: "https://calculadora-liard-ten.vercel.app/"
     },
     {
         id: 6,
-        title: "Card 2",
+        title: "Site Android",
         description: "Tecnologias: HTML e CSS",
         image: "/projetos/android.png",
         modalTitle: "Calculadora",
