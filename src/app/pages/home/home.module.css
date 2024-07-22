@@ -24,7 +24,7 @@
         height: 40%;
         border-radius: 10px;
         position: relative;
-        margin-top: 10px;
+        margin: 20px;
     }
 
     .img {
@@ -75,7 +75,7 @@
         align-items: center;
         justify-content: center;
         gap: 4px;
-        margin: 10px;
+        margin: 30px;
     }
 
     .icons {
