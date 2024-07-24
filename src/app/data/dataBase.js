@@ -84,7 +84,7 @@ export const dataBase = [
         id: 6,
         title: "Calculadora",
         description: "Tecnologias: HTML, CSS, JavaScript",
-        image: "/projetos/calculadora.png",
+        image: "/projetos/Calculadora.png",
         modalTitle: "Calculadora",
         modalDescription: "Projeto simples de uma calculadora utilizando HTML, CSS e JavaScript.",
         buttonText1: "Ver Mais",
