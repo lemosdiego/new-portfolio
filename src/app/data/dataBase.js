@@ -1,6 +1,18 @@
 export const dataBase = [
   {
     id: 1,
+    title: "Beer Masters",
+    description:
+      "Tecnologias: HTML, CSS, JavaScript, React, Next.JS, Material Ui, Leaflet.js",
+    image: "/projetos/beerMasters.png",
+    modalTitle: "Berr Masters",
+    modalDescription:
+      "O projeto da landing page da cervejaria Beer Masters utiliza HTML5, CSS3, JavaScript, React.js e Next.js para criar uma experiência responsiva e interativa. Material UI foi usado para o design, e Leaflet.js para o mapa interativo. O cardápio é acessível via iFood, e o código foi gerenciado com Git e hospedado no GitHub, com deploy em Vercel.",
+    buttonLink2: "https://github.com/lemosdiego/beer-masters.git",
+    buttonLink3: "https://beer-masters.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Cdastro Fornecedor/Produto",
     description: "HTML5, CSS, BOOTSTRAP, Fluig Style Guide, JavaScript, jQuery",
     image: "/projetos/printproject.png",
@@ -11,7 +23,7 @@ export const dataBase = [
     buttonLink3: "https://vflows-teste.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Sistema de Pagamento",
     description: "Tecnologias: Next.JS, JavaScript, Material UI, CSS.",
     image: "/projetos/pagamento.png",
@@ -22,7 +34,7 @@ export const dataBase = [
     buttonLink3: "https://desafio-front-end-woovi-kappa.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Site pessoal",
     description: "Tecnologias: Next.JS, CSS, JavaScript, media queries",
     image: "/projetos/site3.png",
@@ -33,7 +45,7 @@ export const dataBase = [
     buttonLink3: "https://portfolioatalizado.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Calculadora de IMC",
     description: "Tecnologias: HTML5, CSS3, JavaScript",
     image: "/projetos/calculadoraImc.png",
@@ -44,7 +56,7 @@ export const dataBase = [
     buttonLink3: "https://imc-delta-seven.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Lista de tarefas",
     description: "Tecnologias: HTML, CSS e JavaScript",
     image: "/projetos/todoList.png",
@@ -55,7 +67,7 @@ export const dataBase = [
     buttonLink3: "https://tarefas-diarias-omega.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Quizz Angular",
     description: "Tecnologias: Framework Angular",
     image: "/projetos/quizz.png",
@@ -66,7 +78,7 @@ export const dataBase = [
     buttonLink3: "https://quizz-angular-nine.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Previsão do tempo",
     description: "Tecnologias: HTML, CSS, JavaScript API",
     image: "/projetos/previsao.png",
@@ -77,7 +89,7 @@ export const dataBase = [
     buttonLink3: "https://previsao-do-tempo-mu.vercel.app/",
   },
   {
-    id: 8,
+    id: 9,
     title: "Calculadora",
     description: "Tecnologias: HTML, CSS, JavaScript",
     image: "/projetos/Calculadora.png",
@@ -88,7 +100,7 @@ export const dataBase = [
     buttonLink3: "https://calculadora-liard-ten.vercel.app/",
   },
   {
-    id: 9,
+    id: 10,
     title: "Site Android",
     description: "Tecnologias: HTML e CSS",
     image: "/projetos/android.png",
@@ -99,7 +111,7 @@ export const dataBase = [
     buttonLink3: "https://projeto-android-lime.vercel.app/",
   },
   {
-    id: 10,
+    id: 11,
     title: "Portfolio",
     description: "Tecnologias: HTML, CSS e JavaScript",
     image: "/projetos/projectportfolio.png",
