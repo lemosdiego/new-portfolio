@@ -1,6 +1,17 @@
 export const dataBase = [
   {
     id: 1,
+    title: "My Apresentação",
+    description: "Tecnologias: HTML, CSS, JavaScript, React, Next.JS",
+    image: "/projetos/codigocerto.png",
+    modalTitle: "Apresentação pessoal",
+    modalDescription:
+      "O projeto My Apresentação foi desenvolvido como parte da trilha front-end do Código Certo, utilizando tecnologias como JavaScript, React e CSS. O principal objetivo deste projeto é criar uma apresentação pessoal interativa, destacando as habilidades, experiências e informações relevantes do desenvolvedor. O projeto foi elaborado com foco em design responsivo e usabilidade, proporcionando uma navegação intuitiva e visualmente agradável. A estrutura do projeto permite que as informações sejam organizadas de forma clara e dinâmica, oferecendo uma experiência envolvente para os visitantes.",
+    buttonLink2: "https://github.com/lemosdiego/presentation-app.git",
+    buttonLink3: "https://presentation-app-iota.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Beer Masters",
     description:
       "Tecnologias: HTML, CSS, JavaScript, React, Next.JS, Material Ui, Leaflet.js",
@@ -12,8 +23,8 @@ export const dataBase = [
     buttonLink3: "https://beer-masters.vercel.app/",
   },
   {
-    id: 2,
-    title: "Cdastro Fornecedor/Produto",
+    id: 3,
+    title: "Cadastro Fornecedor/Produto",
     description: "HTML5, CSS, BOOTSTRAP, Fluig Style Guide, JavaScript, jQuery",
     image: "/projetos/printproject.png",
     modalTitle: "CADASTRO FORNECEDOR/PRODUTO",
@@ -23,7 +34,7 @@ export const dataBase = [
     buttonLink3: "https://vflows-teste.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Sistema de Pagamento",
     description: "Tecnologias: Next.JS, JavaScript, Material UI, CSS.",
     image: "/projetos/pagamento.png",
@@ -34,7 +45,7 @@ export const dataBase = [
     buttonLink3: "https://desafio-front-end-woovi-kappa.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Site pessoal",
     description: "Tecnologias: Next.JS, CSS, JavaScript, media queries",
     image: "/projetos/site3.png",
@@ -45,7 +56,7 @@ export const dataBase = [
     buttonLink3: "https://portfolioatalizado.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Calculadora de IMC",
     description: "Tecnologias: HTML5, CSS3, JavaScript",
     image: "/projetos/calculadoraImc.png",
@@ -56,7 +67,7 @@ export const dataBase = [
     buttonLink3: "https://imc-delta-seven.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Lista de tarefas",
     description: "Tecnologias: HTML, CSS e JavaScript",
     image: "/projetos/todoList.png",
@@ -67,7 +78,7 @@ export const dataBase = [
     buttonLink3: "https://tarefas-diarias-omega.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Quizz Angular",
     description: "Tecnologias: Framework Angular",
     image: "/projetos/quizz.png",
@@ -78,7 +89,7 @@ export const dataBase = [
     buttonLink3: "https://quizz-angular-nine.vercel.app/",
   },
   {
-    id: 8,
+    id: 9,
     title: "Previsão do tempo",
     description: "Tecnologias: HTML, CSS, JavaScript API",
     image: "/projetos/previsao.png",
@@ -89,7 +100,7 @@ export const dataBase = [
     buttonLink3: "https://previsao-do-tempo-mu.vercel.app/",
   },
   {
-    id: 9,
+    id: 10,
     title: "Calculadora",
     description: "Tecnologias: HTML, CSS, JavaScript",
     image: "/projetos/Calculadora.png",
@@ -100,7 +111,7 @@ export const dataBase = [
     buttonLink3: "https://calculadora-liard-ten.vercel.app/",
   },
   {
-    id: 10,
+    id: 11,
     title: "Site Android",
     description: "Tecnologias: HTML e CSS",
     image: "/projetos/android.png",
@@ -111,7 +122,7 @@ export const dataBase = [
     buttonLink3: "https://projeto-android-lime.vercel.app/",
   },
   {
-    id: 11,
+    id: 12,
     title: "Portfolio",
     description: "Tecnologias: HTML, CSS e JavaScript",
     image: "/projetos/projectportfolio.png",
