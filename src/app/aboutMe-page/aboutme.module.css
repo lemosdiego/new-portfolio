@@ -1,260 +1,183 @@
-@media (min-width: 320px) and (max-width: 480px) {
-  .containerAbout {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .containerDescription {
-    width: 90%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    border-radius: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .containerPagination {
-    width: 95%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 70px;
-  }
-
-  .h2 {
-    font-size: 1.7rem;
-    margin-top: 20px;
-  }
-
-  .p {
-    width: 80%;
-    font-size: 0.8rem;
-    text-align: justify;
-    margin-bottom: 30px;
-  }
-
-  .menu {
-    width: auto;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-  }
-
-  .button {
-    width: 90px;
-  }
+/* Estilos Globais */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 100px auto;
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
-  .containerAbout {
-    width: 100%;
-    height: 100vh;
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .containerDescription {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    border-radius: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .containerPagination {
-    width: 90%;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .h2 {
-    font-size: 2rem;
-    margin-top: 20px;
-  }
-
-  .p {
-    width: 80%;
-    font-size: 0.9rem;
-    text-align: justify;
-    margin-bottom: 40px;
-  }
-
-  .menu {
-    width: 90%;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-  }
-
-  .button {
-    width: 100px;
-  }
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  background: #fff;
+  top: 0;
+  left: 50%;
+  margin-left: -3px;
+  z-index: -1;
+  animation: moveline 6s linear forwards;
 }
 
-@media (min-width: 769px) and (max-width: 1200px) {
-  .containerAbout {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .containerDescription {
-    width: 70%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    border-radius: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .containerPagination {
-    width: 85%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80px;
-  }
-
-  .h2 {
-    font-size: 2.8rem;
-    margin-top: 20px;
-  }
-
-  .p {
-    width: 80%;
-    font-size: 1.1rem;
-    text-align: justify;
-    margin-bottom: 40px;
-  }
-
-  .menu {
-    width: 80%;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-  }
-
-  .button {
-    width: 110px;
-  }
+.container {
+  padding: 10px 50px;
+  position: relative;
+  width: 50%;
+  animation: movedown 1s linear forwards;
+  opacity: 0;
 }
 
-@media (min-width: 1201px) {
-  .containerAbout {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .containerDescription {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    border-radius: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .containerPagination {
-    width: 80%;
-    height: 10%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .h2 {
-    font-size: 3rem;
-    margin-top: 20px;
-  }
-
-  .p {
-    width: 70%;
-    font-size: 1.1rem;
-    text-align: justify;
-    margin-bottom: 40px;
-  }
-
-  .menu {
-    width: 40%;
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-  }
-
-  .button {
-    width: 100px;
-  }
+.container:nth-child(1) {
+  animation-delay: 0s;
+}
+.container:nth-child(2) {
+  animation-delay: 1s;
+}
+.container:nth-child(3) {
+  animation-delay: 2s;
+}
+.container:nth-child(4) {
+  animation-delay: 3s;
+}
+.container:nth-child(5) {
+  animation-delay: 4s;
 }
 
-.button {
+.textBox {
+  padding: 20px 30px;
+  border: solid 1px #fff;
+  position: relative;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.textBox h2 {
+  font-weight: 600;
+}
+
+.textBox small {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+/* Estilos para a div com ícones */
+.iconContainer {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 10;
   background-color: #e53939;
 }
 
-.button:hover {
-  background-color: #e539398b;
+.iconContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.containerAbout {
-  background-color: var(--containerAbout-background);
+.leftContainer {
+  left: 0;
 }
 
-[data-theme="light"] .containerAbout {
-  --containerAbout-background: #f0ecf0;
+.rightContainer {
+  left: 50%;
 }
 
-[data-theme="dark"] .containerAbout {
-  --containerAbout-background: #121212;
+.leftContainer .iconContainer {
+  right: -20px;
+  top: 32px;
 }
 
-.containerDescription {
-  background-color: var(--containerDescription-background);
+.rightContainer .iconContainer {
+  left: -20px;
+  top: 32px;
 }
 
-[data-theme="light"] .containerDescription {
-  --containerDescription-background: #fff;
+.leftContainerArrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid #fff;
+  right: -15px;
 }
 
-[data-theme="dark"] .containerDescription {
-  --containerDescription-background: #333333;
+.rightContainerArrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid #fff;
+  left: -15px;
+}
+
+/* Keyframes */
+@keyframes movedown {
+  0% {
+    opacity: 1;
+    transform: translate(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+
+@keyframes moveline {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .timeline {
+    margin: 50px auto;
+  }
+
+  .timeline::after {
+    left: 31px;
+  }
+
+  .container {
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 25px;
+  }
+
+  .textBox {
+    font-size: 13px;
+  }
+
+  .textBox small {
+    margin-bottom: 10px;
+  }
+
+  .rightContainer {
+    left: 0;
+  }
+
+  .leftContainer .iconContainer,
+  .rightContainer .iconContainer {
+    left: 10px;
+  }
+
+  .leftContainerArrow,
+  .rightContainerArrow {
+    border-right: 15px solid #fff;
+    border-left: 0;
+    left: -15px;
+  }
 }
