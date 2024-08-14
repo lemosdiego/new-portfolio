@@ -97,12 +97,12 @@
   .containerProjects {
     width: 80%;
     display: flex;
-    flex-wrap: nowrap; /* Disable wrapping */
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: flex-start;
     gap: 10px;
-    overflow-x: scroll; /* Enable horizontal scroll */
-    scroll-behavior: smooth; /* Smooth scroll */
+    overflow-x: scroll;
+    scroll-behavior: smooth;
     padding: 10px;
     position: relative;
     -ms-overflow-style: none;
@@ -144,12 +144,12 @@
   .containerProjects {
     width: 80%;
     display: flex;
-    flex-wrap: nowrap; /* Disable wrapping */
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: flex-start;
     gap: 10px;
-    overflow-x: scroll; /* Enable horizontal scroll */
-    scroll-behavior: smooth; /* Smooth scroll */
+    overflow-x: scroll;
+    scroll-behavior: smooth;
     padding: 10px;
     position: relative;
     -ms-overflow-style: none;
