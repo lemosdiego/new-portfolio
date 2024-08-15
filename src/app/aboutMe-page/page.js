@@ -20,7 +20,7 @@ const About = () => {
         <div className={`${Styles.container} ${Styles.leftContainer}`}>
           <div className={Styles.iconContainer}></div>
           <div className={Styles.textBox}>
-            <h2 id="sobre">Sobre mim</h2>
+            <h2>Sobre mim</h2>
             <p>
               Olá, sou Washington, tenho 30 anos e sou natural de Recife.
               Atualmente, moro entre Recife e São Paulo. Sou formado em Análise
@@ -43,7 +43,7 @@ const About = () => {
         <div className={`${Styles.container} ${Styles.rightContainer}`}>
           <div className={Styles.iconContainer}></div>
           <div className={Styles.textBox}>
-            <h2 id="objetivos">Quando Tudo Começou</h2>
+            <h2>Quando Tudo Começou</h2>
             <h3>2021</h3>
             <p>
               Em meados de 2021, decidi começar a estudar programação. Os
@@ -61,7 +61,7 @@ const About = () => {
         <div className={`${Styles.container} ${Styles.leftContainer}`}>
           <div className={Styles.iconContainer}></div>
           <div className={Styles.textBox}>
-            <h2 id="interesses">Desenvolvimento do Interesse em Front-End</h2>
+            <h2>Desenvolvimento do Interesse em Front-End</h2>
             <h3>2022</h3>
             <p>
               Após ter contato com HTML, CSS e JavaScript e me aprofundar no
@@ -85,7 +85,7 @@ const About = () => {
         <div className={`${Styles.container} ${Styles.rightContainer}`}>
           <div className={Styles.iconContainer}></div>
           <div className={Styles.textBox}>
-            <h2 id="gostos">Progresso em Projetos Front-End e Formação</h2>
+            <h2>Progresso em Projetos Front-End e Formação</h2>
             <h3>2023</h3>
             <p>
               Em 2023, meu interesse por frameworks e bibliotecas front-end
@@ -114,7 +114,7 @@ const About = () => {
         <div className={`${Styles.container} ${Styles.leftContainer}`}>
           <div className={Styles.iconContainer}></div>
           <div className={Styles.textBox}>
-            <h2 id="motivacoes">Avanços em </h2>
+            <h2>Avanços em </h2>
             <h3>2024</h3>
             <p>
               Em 2024, comecei um novo curso de Engenharia de Software, buscando
@@ -136,9 +136,7 @@ const About = () => {
         <div className={`${Styles.container} ${Styles.rightContainer}`}>
           <div className={Styles.iconContainer}></div>
           <div className={Styles.textBox}>
-            <h2 id="gostos">
-              Se Você Chegou Até Aqui, Conheça um Pouco Mais Sobre Mim
-            </h2>
+            <h2>Se Você Chegou Até Aqui, Conheça um Pouco Mais Sobre Mim</h2>
             <p>
               Além da programação, sou uma pessoa apaixonada por viajar e
               explorar novos lugares. Entre os diversos destinos que já tive a
@@ -168,7 +166,7 @@ const About = () => {
         <div className={`${Styles.container} ${Styles.leftContainer}`}>
           <div className={Styles.iconContainer}></div>
           <div className={Styles.textBox}>
-            <h2 id="motivacoes">Minhas Motivações e Visões de Futuro </h2>
+            <h2>Minhas Motivações e Visões de Futuro </h2>
             <p>
               Minha principal motivação é alcançar meu tão sonhado "sim",
               provando para mim mesmo que sou capaz de crescer tanto
@@ -199,7 +197,7 @@ const About = () => {
         <div className={`${Styles.container} ${Styles.rightContainer}`}>
           <div className={Styles.iconContainer}></div>
           <div className={Styles.textBox}>
-            <h2 id="gostos">O Que Esperar de Mim</h2>
+            <h2>O Que Esperar de Mim</h2>
             <p>
               Você pode esperar de mim uma grande vontade de aprender e uma
               abordagem autodidata para o desenvolvimento profissional. Tenho
