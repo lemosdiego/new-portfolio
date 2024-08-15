@@ -1,8 +1,21 @@
+import Link from "next/link";
 import Styles from "./aboutme.module.css";
 
 const About = () => {
   return (
     <section className={Styles.about}>
+      <div className={Styles.menu}>
+        <Link href="/contact-page" passHref>
+          <button className={Styles.button} variant="contained">
+            Contatos
+          </button>
+        </Link>
+        <Link href="/" passHref>
+          <button className={Styles.button} variant="contained">
+            Inicio
+          </button>
+        </Link>
+      </div>
       <div className={Styles.timeline}>
         <div className={`${Styles.container} ${Styles.leftContainer}`}>
           <div className={Styles.iconContainer}></div>

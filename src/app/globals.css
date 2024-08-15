@@ -14,7 +14,7 @@ html {
 body {
   transition: background-color 0.4s ease;
 }
-/* globals.css */
+
 :root {
   --primary-color: #e53939;
   --primary-hover-color: #e539398b;
@@ -22,16 +22,24 @@ body {
   --dark-card-bg: #333333;
   --light-text-color: #000;
   --dark-text-color: #fff;
+  --line-color-light: #000000;
+  --line-color-dark: #ffffff;
+  --text-box-border-light: #000;
+  --text-box-border-dark: #fff;
 }
 
 body[data-theme="dark"] {
   background-color: #121212;
   color: #ffffff;
+  --line-color: var(--line-color-dark);
+  --text-box-border-color: var(--text-box-border-dark);
 }
 
 body[data-theme="light"] {
   background-color: #ffffff;
   color: #000000;
+  --line-color: var(--line-color-light);
+  --text-box-border-color: var(--text-box-border-light);
 }
 
 .containerCard[data-theme="dark"] {

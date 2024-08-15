@@ -1,364 +1,361 @@
 @media (min-width: 320px) and (max-width: 480px) {
-    .containerMenu {
-        width: 80%;
-        height: 70px;
-        margin: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 2px;
-        position: fixed;
-        right: 0;
-        z-index: 1000;
-    }
+  .containerMenu {
+    width: 80%;
+    height: 70px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    position: fixed;
+    right: 0;
+    z-index: 1000;
+  }
 
-    .toggle {
-        width: 100px;
-        height: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+  .toggle {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .menuDescription {
-        width: 60px;
-        height: 30px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+  .menuDescription {
+    width: 60px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .iconOpen {
-        width: 40px;
-        height: 40px;
-        position: relative;
-        z-index: 999;
-        cursor: pointer;
-    }
+  .iconOpen {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    z-index: 999;
+    cursor: pointer;
+  }
 
-    .iconClose {
-        width: 40px;
-        height: 40px;
-        position: relative;
-        display: none;
-        z-index: 999;
-        cursor: pointer;
-    }
+  .iconClose {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    display: none;
+    z-index: 999;
+    cursor: pointer;
+  }
 
-    .header {
-        width: 100%;
-        height: 100vh;
-        position: fixed;
-        display: none;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column-reverse;
-        transition: background-color 0.3s ease;
-        z-index: 999;
-    }
+  .header {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    transition: background-color 0.3s ease;
+    z-index: 999;
+  }
 
-    .networksContainer {
-        width: 80%;
-        height: 10%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-    }
+  .networksContainer {
+    width: 80%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
 
-    .networks {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        position: relative;
-    }
+  .networks {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+  }
 
-    .containerNav {
-        width: 80%;
-        height: 70%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+  .containerNav {
+    width: 80%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-    .containerMenu {
-        width: 50%;
-        height: 70px;
-        margin: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 2px;
-        position: fixed;
-        right: 0;
-        z-index: 1000;
-    }
+  .containerMenu {
+    width: 50%;
+    height: 70px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    position: fixed;
+    right: 0;
+    z-index: 1000;
+  }
 
-    .toggle {
-        width: 120px;
-        height: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+  .toggle {
+    width: 120px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .menuDescription {
-        width: 80px;
-        height: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+  .menuDescription {
+    width: 80px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .iconOpen {
-        width: 50px;
-        height: 50px;
-        position: relative;
-        z-index: 999;
-        cursor: pointer;
-    }
+  .iconOpen {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    z-index: 999;
+    cursor: pointer;
+  }
 
-    .iconClose {
-        width: 50px;
-        height: 50px;
-        position: relative;
-        display: none;
-        z-index: 999;
-        cursor: pointer;
-    }
+  .iconClose {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    display: none;
+    z-index: 999;
+    cursor: pointer;
+  }
 
-    .header {
-        width: 100%;
-        height: 100vh;
-        position: fixed;
-        display: none;
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
-        transition: background-color 0.3s ease;
-        z-index: 999;
-    }
+  .header {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    display: none;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    z-index: 999;
+  }
 
-    .networksContainer {
-        width: 80%;
-        height: 10%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-    }
+  .networksContainer {
+    width: 80%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
 
-    .networks {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        position: relative;
-    }
+  .networks {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+  }
 
-    .containerNav {
-        width: 80%;
-        height: 70%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+  .containerNav {
+    width: 80%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1200px) {
-    .containerMenu {
-        width: 300px;
-        height: 100px;
-        margin: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 4px;
-        position: fixed;
-        z-index: 1000;
-    }
+  .containerMenu {
+    width: 300px;
+    height: 100px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    position: fixed;
+    z-index: 1000;
+  }
 
-    .toggle {
-        width: 140px;
-        height: 55px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+  .toggle {
+    width: 140px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .menuDescription {
-        width: 90px;
-        height: 45px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+  .menuDescription {
+    width: 90px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .iconOpen {
-        width: 55px;
-        height: 55px;
-        position: relative;
-        z-index: 999;
-        cursor: pointer;
-        z-index: 1000;
-    }
+  .iconOpen {
+    width: 55px;
+    height: 55px;
+    position: relative;
+    z-index: 999;
+    cursor: pointer;
+    z-index: 1000;
+  }
 
-    .iconClose {
-        width: 55px;
-        height: 55px;
-        position: relative;
-        display: none;
-        z-index: 999;
-        cursor: pointer;
-        z-index: 1000;
+  .iconClose {
+    width: 55px;
+    height: 55px;
+    position: relative;
+    display: none;
+    z-index: 999;
+    cursor: pointer;
+    z-index: 1000;
+  }
 
-    }
+  .header {
+    width: 45%;
+    height: 100vh;
+    position: fixed;
+    display: none;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--header-background);
+    transition: background-color 0.3s ease;
+    z-index: 999;
+  }
 
-    .header {
-        width: 45%;
-        height: 100vh;
-        position: fixed;
-        display: none;
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
-        background-color: var(--header-background);
-        transition: background-color 0.3s ease;
-        z-index: 999;
-    }
+  .networksContainer {
+    width: 80%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
 
-    .networksContainer {
-        width: 80%;
-        height: 10%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-    }
+  .networks {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+  }
 
-    .networks {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        position: relative;
-    }
-
-    .containerNav {
-        width: 80%;
-        height: 60%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+  .containerNav {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 1201px) {
-    .containerMenu {
-        width: 350px;
-        height: 100px;
-        margin: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 4px;
-        position: fixed;
-        z-index: 1000;
-    }
+  .containerMenu {
+    width: 350px;
+    height: 100px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    position: fixed;
+    z-index: 1000;
+  }
 
-    .toggle {
-        width: 150px;
-        height: 60px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+  .toggle {
+    width: 150px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .menuDescription {
-        width: 100px;
-        height: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+  .menuDescription {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .iconOpen {
-        width: 60px;
-        height: 60px;
-        position: relative;
-        z-index: 1000;
-        cursor: pointer;
-    }
+  .iconOpen {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    z-index: 1000;
+    cursor: pointer;
+  }
 
-    .iconClose {
-        width: 60px;
-        height: 60px;
-        position: relative;
-        display: none;
-        z-index: 999;
-        cursor: pointer;
-    }
+  .iconClose {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    display: none;
+    z-index: 999;
+    cursor: pointer;
+  }
 
-    .header {
-        width: 40%;
-        height: 100vh;
-        position: fixed;
-        display: none;
-        align-items: center;
-        flex-direction: column-reverse;
-        justify-content: center;
-        transition: background-color 0.3s ease;
-        z-index: 999;
-    }
+  .header {
+    width: 40%;
+    height: 100vh;
+    position: fixed;
+    display: none;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    z-index: 999;
+  }
 
-    .networksContainer {
-        width: 80%;
-        height: 10%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-    }
+  .networksContainer {
+    width: 80%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
 
-    .networks {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        position: relative;
-        cursor: pointer;
+  .networks {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+  }
 
-    }
-
-    .containerNav {
-        width: 80%;
-        height: 70%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+  .containerNav {
+    width: 80%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .header {
-    background-color: var(--header-background);
-
+  background-color: var(--header-background);
 }
 
 [data-theme="light"] .header {
-    --header-background: #ebe2e1f5;
+  --header-background: #ebe2e1f5;
 }
 
 [data-theme="dark"] .header {
-    --header-background: #333333fb;
+  --header-background: #333333fb;
 }
 
 .networks {
-    background: var(--networks-background);
+  background: var(--networks-background);
 }
 
 [data-theme="light"] .networks:hover {
-    --networks-background: #333333;
+  --networks-background: #333333;
 }
 
 [data-theme="dark"] .networks:hover {
-    --networks-background: #ebe2e1d6;
+  --networks-background: #ebe2e1d6;
 }
