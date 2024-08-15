@@ -168,12 +168,11 @@ const About = () => {
           <div className={Styles.textBox}>
             <h2>Minhas Motivações e Visões de Futuro</h2>
             <p>
-              Minha principal motivação é alcançar meu tão sonhado "sim",
-              provando para mim mesmo que sou capaz de crescer tanto
-              profissionalmente quanto pessoalmente. Este objetivo não é apenas
-              sobre conquistar uma posição ou um título, mas sobre demonstrar
-              minha capacidade de superar desafios e alcançar minhas metas com
-              dedicação e esforço.
+              Minha principal motivação é alcançar meu tão sonhado SIM, provando
+              para mim mesmo que sou capaz de crescer tanto profissionalmente
+              quanto pessoalmente. Este objetivo não é apenas sobre conquistar
+              uma posição ou um título, mas sobre demonstrar minha capacidade de
+              superar desafios e alcançar minhas metas com dedicação e esforço.
             </p>
             <p>
               Minha visão de futuro é viver fazendo o que aprendi a gostar,
