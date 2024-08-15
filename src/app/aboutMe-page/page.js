@@ -114,7 +114,7 @@ const About = () => {
         <div className={`${Styles.container} ${Styles.leftContainer}`}>
           <div className={Styles.iconContainer}></div>
           <div className={Styles.textBox}>
-            <h2>Avanços em </h2>
+            <h2>Avanços em</h2>
             <h3>2024</h3>
             <p>
               Em 2024, comecei um novo curso de Engenharia de Software, buscando
@@ -166,7 +166,7 @@ const About = () => {
         <div className={`${Styles.container} ${Styles.leftContainer}`}>
           <div className={Styles.iconContainer}></div>
           <div className={Styles.textBox}>
-            <h2>Minhas Motivações e Visões de Futuro </h2>
+            <h2>Minhas Motivações e Visões de Futuro</h2>
             <p>
               Minha principal motivação é alcançar meu tão sonhado "sim",
               provando para mim mesmo que sou capaz de crescer tanto
@@ -189,7 +189,7 @@ const About = () => {
               esses sonhos e criar uma vida plena e equilibrada. Acredito que a
               combinação de crescimento profissional, exploração do mundo e
               tempo de qualidade com meus entes queridos formará a base de um
-              futuro satisfatório e enriquecedor.
+              futuro satisfatório e gratificante.
             </p>
             <span className={Styles.leftContainerArrow}></span>
           </div>
