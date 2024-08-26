@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import Styles from "./header.module.css";
 import { Box, Switch, Typography } from "@mui/material";
 import Image from "next/image";
+import Menu from "@/app/components/menu/Menu";
 import DarkModeToggle from "@/app/components/theme/Theme";
 import Link from "next/link";
 
@@ -126,35 +127,7 @@ const Header = () => {
           </Box>
         </Box>
         <Box className={Styles.containerNav}>
-          <nav className={Styles.nav}>
-            <ul className={Styles.ul}>
-              <li>
-                <Link className={Styles.link} href="#home">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link className={Styles.link} href="#projects">
-                  Projects
-                </Link>
-              </li>
-              <li>
-                <Link className={Styles.link} href="#skills">
-                  Skills
-                </Link>
-              </li>
-              <li>
-                <Link className={Styles.link} href="/aboutMe-page">
-                  About me
-                </Link>
-              </li>
-              <li>
-                <Link className={Styles.link} href="/contact-page">
-                  Contacts
-                </Link>
-              </li>
-            </ul>
-          </nav>
+          <Menu />
         </Box>
       </header>
     </>
