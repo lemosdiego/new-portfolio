@@ -71,7 +71,7 @@ const Home = () => {
             </Link>
             <Button
               className={Styles.button}
-              href="https://drive.google.com/file/d/1SNk7sdN6jDRRDpF_n_w4PBEpxEXvZ1IY/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1_WSwg-zzqJH3NzcYZZhV9QTHVrtqvVXt/view?usp=sharing"
               target="_blank"
             >
               Curriculo
