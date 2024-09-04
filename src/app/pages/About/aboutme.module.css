@@ -292,14 +292,3 @@
     z-index: -999;
   }
 }
-.containerTimeline {
-  background-color: var(--container-background);
-}
-
-[data-theme="light"] .containerTimeline {
-  --container-background: #f0ecf0;
-}
-
-[data-theme="dark"] .containerTimeline {
-  --container-background: #333333;
-}

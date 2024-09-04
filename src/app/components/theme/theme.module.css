@@ -1,26 +1,25 @@
 .container {
+  .text {
+    margin-left: 8px;
+    margin-right: 8px;
+    color: var(--label-color);
+  }
 
-    .text {
-        margin-left: 8px;
-        margin-right: 8px;
-        color: var(--label-color);
-    }
+  [data-theme="light"] .text {
+    --label-color: #000;
+  }
 
-    [data-theme="light"] .text {
-        --label-color: #000;
-    }
+  [data-theme="dark"] .text {
+    --label-color: #fff;
+  }
 
-    [data-theme="dark"] .text {
-        --label-color: #fff;
-    }
+  .container {
+    display: flex;
+    align-items: center;
+  }
 
-    .container {
-        display: flex;
-        align-items: center;
-    }
-
-    .darkMode {
-        display: flex;
-        align-items: center;
-    }
+  .darkMode {
+    display: flex;
+    align-items: center;
+  }
 }
