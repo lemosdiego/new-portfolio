@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Styles from "./aboutme.module.css";
 import { Box, Typography } from "@mui/material";
 

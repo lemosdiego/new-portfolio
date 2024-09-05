@@ -1,9 +1,12 @@
 .timeline {
   position: relative;
   max-width: 1200px;
-  margin: 100px auto;
 }
-
+.containerTimeline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .timeline::after {
   content: "";
   position: absolute;
@@ -146,10 +149,6 @@
 
 /* Media Queries */
 @media (max-width: 768px) {
-  .timeline {
-    margin: 50px auto;
-  }
-
   .timeline::after {
     left: 31px;
   }

@@ -26,7 +26,7 @@ const Menu = () => {
           </Link>
         </li>
         <li>
-          <Link className={Styles.link} href="/contact-page">
+          <Link className={Styles.link} href="#contatos">
             Contacts
           </Link>
         </li>
