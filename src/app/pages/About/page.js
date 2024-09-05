@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Styles from "./aboutme.module.css";
 import { Box, Typography } from "@mui/material";
 
@@ -13,7 +14,13 @@ const About = () => {
         <div className={Styles.container_timeline}>
           <div className={Styles.timeline}>
             <div className={`${Styles.container} ${Styles.leftContainer}`}>
-              <div className={Styles.iconContainer}></div>
+              <div className={Styles.iconContainer}>
+                <Image
+                  src="/sobre.png"
+                  alt="Foto de washington"
+                  layout="fill"
+                />
+              </div>
               <div className={Styles.textBox}>
                 <h2>Sobre mim</h2>
                 <p>
@@ -38,7 +45,13 @@ const About = () => {
               </div>
             </div>
             <div className={`${Styles.container} ${Styles.rightContainer}`}>
-              <div className={Styles.iconContainer}></div>
+              <div className={Styles.iconContainer}>
+                <Image
+                  src="/relogio.svg"
+                  alt="icone de relógio"
+                  layout="fill"
+                />
+              </div>
               <div className={Styles.textBox}>
                 <h2>Quando Tudo Começou</h2>
                 <h3>2021</h3>
@@ -56,7 +69,13 @@ const About = () => {
               </div>
             </div>
             <div className={`${Styles.container} ${Styles.leftContainer}`}>
-              <div className={Styles.iconContainer}></div>
+              <div className={Styles.iconContainer}>
+                <Image
+                  src="/lampada.svg"
+                  alt="icone de lâmpada"
+                  layout="fill"
+                />
+              </div>
               <div className={Styles.textBox}>
                 <h2>Desenvolvimento do Interesse em Front-End</h2>
                 <h3>2022</h3>
@@ -82,7 +101,9 @@ const About = () => {
               </div>
             </div>
             <div className={`${Styles.container} ${Styles.rightContainer}`}>
-              <div className={Styles.iconContainer}></div>
+              <div className={Styles.iconContainer}>
+                <Image src="/trofeu.svg" alt="icone de troféu" layout="fill" />
+              </div>
               <div className={Styles.textBox}>
                 <h2>Progresso em Projetos Front-End e Formação</h2>
                 <h3>2023</h3>
@@ -113,7 +134,13 @@ const About = () => {
               </div>
             </div>
             <div className={`${Styles.container} ${Styles.leftContainer}`}>
-              <div className={Styles.iconContainer}></div>
+              <div className={Styles.iconContainer}>
+                <Image
+                  src="/foguete.svg"
+                  alt="icone de foguete"
+                  layout="fill"
+                />
+              </div>
               <div className={Styles.textBox}>
                 <h2>Avanços em</h2>
                 <h3>2024</h3>
@@ -135,7 +162,9 @@ const About = () => {
               </div>
             </div>
             <div className={`${Styles.container} ${Styles.rightContainer}`}>
-              <div className={Styles.iconContainer}></div>
+              <div className={Styles.iconContainer}>
+                <Image src="/livro.svg" alt="icone de livro" layout="fill" />
+              </div>
               <div className={Styles.textBox}>
                 <h2>
                   Se Você Chegou Até Aqui, Conheça um Pouco Mais Sobre Mim
@@ -169,7 +198,9 @@ const About = () => {
               </div>
             </div>
             <div className={`${Styles.container} ${Styles.leftContainer}`}>
-              <div className={Styles.iconContainer}></div>
+              <div className={Styles.iconContainer}>
+                <Image src="/alvo.svg" alt="icone de alvo" layout="fill" />
+              </div>
               <div className={Styles.textBox}>
                 <h2>Minhas Motivações e Visões de Futuro</h2>
                 <p>
@@ -201,7 +232,13 @@ const About = () => {
               </div>
             </div>
             <div className={`${Styles.container} ${Styles.rightContainer}`}>
-              <div className={Styles.iconContainer}></div>
+              <div className={Styles.iconContainer}>
+                <Image
+                  src="/mao.svg"
+                  alt="icone de aperto de mão"
+                  layout="fill"
+                />
+              </div>
               <div className={Styles.textBox}>
                 <h2>O Que Esperar de Mim</h2>
                 <p>
