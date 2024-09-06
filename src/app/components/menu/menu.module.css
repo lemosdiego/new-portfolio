@@ -147,12 +147,12 @@
 
 .link {
   text-decoration: none;
-  color: #e53939;
-  font-weight: 500;
+  color: #000000;
+  font-weight: 800;
 }
 
 .link:hover {
-  color: #e5393982;
+  color: #000000dd;
   font-weight: 400;
 }
 

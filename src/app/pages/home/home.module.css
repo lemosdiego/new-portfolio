@@ -399,11 +399,11 @@
 }
 
 .button {
-  background-color: #e53939;
+  background-color: #4a4a4a;
 }
 
 .button:hover {
-  background-color: #e539398b;
+  background-color: #4a4a4ac5;
 }
 
 .icons:hover {

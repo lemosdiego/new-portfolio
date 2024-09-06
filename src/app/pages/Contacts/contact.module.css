@@ -514,23 +514,16 @@
 }
 
 .descricao ul li:hover {
-  color: #e53939;
+  color: #000000;
   transform: scale(1.2);
+  font-weight: 700;
 }
 
 .form form button {
-  background-color: #e53939;
+  background-color: #000000;
   color: #fff;
 }
 
 .form form button:hover {
-  background-color: #e539398b;
-}
-
-.button {
-  background-color: #e53939;
-}
-
-.button:hover {
-  background-color: #e539398b;
+  background-color: #000000c4;
 }
