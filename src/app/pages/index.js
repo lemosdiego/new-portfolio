@@ -6,6 +6,7 @@ import Footer from "./footer/footer";
 import Skills from "./skills/skills";
 import About from "./About/page";
 import ContactPage from "./Contacts/page";
+import Certificates from "./Certificados/Certificates";
 
 const Index = () => {
   return (
@@ -15,6 +16,7 @@ const Index = () => {
       <About />
       <Projects />
       <Skills />
+      <Certificates />
       <ContactPage />
       <Footer />
     </>

@@ -30,9 +30,6 @@
     font-size: 10px;
   }
 
-  .button:hover {
-  }
-
   .modal {
     width: 90%;
     height: auto;
@@ -79,9 +76,6 @@
     height: 32px;
     color: #fff;
     font-size: 10px;
-  }
-
-  .button:hover {
   }
 
   .modal {
@@ -135,9 +129,6 @@
     height: 35px;
     color: #fff;
     font-size: 10px;
-  }
-
-  .button:hover {
   }
 
   .modal {
