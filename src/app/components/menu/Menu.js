@@ -26,6 +26,11 @@ const Menu = () => {
           </Link>
         </li>
         <li>
+          <Link className={Styles.link} href="#certificados">
+            Certificados
+          </Link>
+        </li>
+        <li>
           <Link className={Styles.link} href="#contatos">
             Contacts
           </Link>

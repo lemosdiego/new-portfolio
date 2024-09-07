@@ -12,7 +12,7 @@ const Certificates = () => {
   ];
 
   return (
-    <section className={Styles.Certificates}>
+    <section className={Styles.Certificates} id="certificados">
       <Box className={Styles.title}>
         <Typography variant="h2" className={Styles.h2}>
           Certificates
