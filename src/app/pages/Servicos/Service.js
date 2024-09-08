@@ -5,7 +5,7 @@ import { servicesData } from "@/app/data/serviceData";
 
 const Service = () => {
   return (
-    <section className={styles.services}>
+    <section className={styles.services} id="servicos">
       <Box className={styles.title}>
         <Typography variant="h2" className={styles.h2}>
           Services

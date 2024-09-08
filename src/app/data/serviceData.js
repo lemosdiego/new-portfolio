@@ -3,7 +3,11 @@ export const servicesData = [
     id: 1,
     image: "/services/landing.svg",
     title: "Desenvolvimento de Landing Pages",
-    features: ["Design responsivo", "SEO otimizado", "Integração com APIs"],
+    features: [
+      "Design responsivo",
+      "Design para refletir sua marca.",
+      "Integração com APIs",
+    ],
   },
   {
     id: 2,

@@ -31,6 +31,11 @@ const Menu = () => {
           </Link>
         </li>
         <li>
+          <Link className={Styles.link} href="#servicos">
+            Serviços
+          </Link>
+        </li>
+        <li>
           <Link className={Styles.link} href="#contatos">
             Contacts
           </Link>
