@@ -8,20 +8,24 @@ import About from "./About/page";
 import ContactPage from "./Contacts/page";
 import Certificates from "./Certificados/Certificates";
 import Service from "./Servicos/Service";
+import { LanguageProvider } from "../../../context/LanguageContext";
+import { TranslationProvider } from "../../../context/TranslationContext";
 
 const Index = () => {
   return (
-    <>
-      <Header />
-      <Home />
-      <About />
-      <Projects />
-      <Skills />
-      <Certificates />
-      <Service />
-      <ContactPage />
-      <Footer />
-    </>
+    <LanguageProvider>
+      <TranslationProvider>
+        <Header />
+        <Home />
+        <About />
+        <Projects />
+        <Skills />
+        <Certificates />
+        <Service />
+        <ContactPage />
+        <Footer />
+      </TranslationProvider>
+    </LanguageProvider>
   );
 };
 
