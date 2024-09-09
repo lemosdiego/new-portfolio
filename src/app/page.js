@@ -4,12 +4,10 @@ import { TranslationProvider } from "../../context/TranslationContext";
 
 export default function Home() {
   return (
-    <>
-      <LanguageProvider>
-        <TranslationProvider>
-          <Index />
-        </TranslationProvider>
-      </LanguageProvider>
-    </>
+    <LanguageProvider>
+      <TranslationProvider>
+        <Index />
+      </TranslationProvider>
+    </LanguageProvider>
   );
 }
