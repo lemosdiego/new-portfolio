@@ -1,0 +1,89 @@
+.languageSelector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.languageButton {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  transition: transform 0.3s ease;
+}
+
+.languageButton:hover {
+  transform: scale(1.1);
+}
+
+.flag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.p {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.flag img {
+  width: 100%;
+  height: 100%;
+}
+.br {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(95, 230, 23, 1) 0%,
+    rgba(167, 241, 18, 1) 44%,
+    rgba(255, 254, 11, 0.9934348739495799) 100%,
+    rgba(12, 0, 53, 1) 100%
+  );
+}
+
+.en {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 9, 193, 1) 0%,
+    rgba(220, 228, 215, 1) 41%,
+    rgba(236, 10, 10, 1) 82%
+  );
+}
+.es {
+  background: linear-gradient(
+    90deg,
+    rgba(193, 0, 0, 1) 0%,
+    rgba(255, 234, 11, 1) 41%,
+    rgba(236, 23, 10, 1) 82%
+  );
+}
+.flag:hover {
+  background: #00000021;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .flag {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .flag {
+    width: 50px;
+    height: 40px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  .flag {
+    width: 50px;
+    height: 40px;
+  }
+}
+@media (min-width: 1201px) {
+  .flag {
+    width: 50px;
+    height: 40px;
+  }
+}
