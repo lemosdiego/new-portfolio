@@ -8,8 +8,8 @@ import { useInView } from "react-intersection-observer";
 const ProgressBar = ({ title, percentage, color }) => {
   const [progressWidth, setProgressWidth] = useState("0%");
   const { ref, inView } = useInView({
-    triggerOnce: true, // only trigger the animation once
-    threshold: 0.1, // trigger when 10% of the element is visible
+    triggerOnce: true,
+    threshold: 0.1,
   });
 
   useEffect(() => {

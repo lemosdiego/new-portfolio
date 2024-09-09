@@ -1,14 +1,20 @@
 "use client";
 
-import { useEffect } from "react";
-import Styles from "./header.module.css";
-import { Box, Switch, Typography } from "@mui/material";
+import React, { useEffect } from "react";
+import { Box, Typography } from "@mui/material";
 import Image from "next/image";
 import Menu from "@/app/components/menu/Menu";
 import DarkModeToggle from "@/app/components/theme/Theme";
 import Link from "next/link";
+import LanguageSelector from "@/app/components/LanguageSelector/LanguageSelector";
+import { useLanguage } from "../../../../context/LanguageContext";
+import { headerTranslations } from "../../../../context/HeaderTranslation";
+import Styles from "./header.module.css";
 
 const Header = () => {
+  const { language } = useLanguage();
+  const t = headerTranslations[language];
+
   function abrirMenu() {
     const abrir = document.getElementById("header");
     const iconAbrir = document.getElementById("open");
@@ -56,14 +62,17 @@ const Header = () => {
         <Box className={Styles.toggle}>
           <DarkModeToggle />
         </Box>
+        <Box className={Styles.flags}>
+          <LanguageSelector />
+        </Box>
         <Box className={Styles.menuDescription}>
-          <Typography className={Styles.p}>Menu</Typography>
+          <Typography className={Styles.p}>{t.menu}</Typography>
         </Box>
         <Box className={Styles.iconOpen} id="open" onClick={abrirMenu}>
           <Image
             className={Styles.icon}
             src="/openMenu.svg"
-            alt="Logo"
+            alt="Open menu icon"
             layout="fill"
             objectFit="contain"
           />
@@ -71,7 +80,7 @@ const Header = () => {
         <Box className={Styles.iconClose} id="close" onClick={fecharMenu}>
           <Image
             src="/closeMenu.svg"
-            alt="Logo"
+            alt="Close menu icon"
             layout="fill"
             objectFit="contain"
           />
@@ -83,7 +92,7 @@ const Header = () => {
             <Link href="https://WA.me/5581982383803" target="_blank">
               <Image
                 src="/whatsapp.svg"
-                alt="logo instagram"
+                alt={t.whatsappAlt}
                 layout="fill"
                 objectFit="contain"
               />
@@ -96,7 +105,7 @@ const Header = () => {
             >
               <Image
                 src="/linkedin.svg"
-                alt="logo instagram"
+                alt={t.linkedinAlt}
                 layout="fill"
                 objectFit="contain"
               />
@@ -106,7 +115,7 @@ const Header = () => {
             <Link href="https://github.com/lemosdiego" target="_blank">
               <Image
                 src="/github.svg"
-                alt="logo Github"
+                alt={t.githubAlt}
                 layout="fill"
                 objectFit="contain"
               />
@@ -119,7 +128,7 @@ const Header = () => {
             >
               <Image
                 src="/insta.svg"
-                alt="logo instagram"
+                alt={t.instagramAlt}
                 layout="fill"
                 objectFit="contain"
               />

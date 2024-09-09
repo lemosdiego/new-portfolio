@@ -6,8 +6,13 @@ import { dataBase } from "@/app/data/dataBase";
 import { Grid, Typography, Box } from "@mui/material";
 import Image from "next/image";
 import Styles from "./project.module.css";
+import { useLanguage } from "../../../../context/LanguageContext";
+import { projectTranslation } from "../../../../context/ProjectTranslation";
 
 const Projects = () => {
+  const { language } = useLanguage();
+  const t = projectTranslation[language];
+
   const containerRef = useRef(null);
 
   const scrollLeft = () => {
@@ -32,7 +37,7 @@ const Projects = () => {
     <Grid id="projects" className={Styles.grid_container}>
       <Box className={Styles.containerTitle}>
         <Typography className={Styles.h2} variant="h2">
-          Projects
+          {t.titleSection}
         </Typography>
       </Box>
       <Box className={Styles.IconLeft} onClick={scrollLeft}>

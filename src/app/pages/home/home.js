@@ -1,10 +1,16 @@
-"use-client";
+"use client";
+
+import React from "react";
 import { Box, Button, Typography } from "@mui/material";
+import { useLanguage } from "../../../../context/LanguageContext";
 import Styles from "./home.module.css";
 import Image from "next/image";
 import Link from "next/link";
-
+import { homeTranslations } from "../../../../context/homeTranslations";
 const Home = () => {
+  const { language } = useLanguage();
+  const t = homeTranslations[language];
+
   return (
     <section className={Styles.containerHome} id="home">
       <Box className={Styles.containerPresentation}>
@@ -19,28 +25,22 @@ const Home = () => {
         <Box className={Styles.containerDescription}>
           <Box className={Styles.containerApresentation}>
             <Typography variant="h6" className={Styles.h6}>
-              Olá a todos, eu sou
+              {t.greeting}
             </Typography>
             <Typography variant="h1" className={Styles.h1}>
-              Washington Lemos
+              {t.name}
             </Typography>
             <Typography variant="h2" className={Styles.h2}>
-              Front end web developer
+              {t.jobTitle}
             </Typography>
-            <Typography className={Styles.p}>
-              Sou programador front-end, natural de Recife, mas atualmente
-              resido entre Recife e São Paulo. Tenho experiência com HTML, CSS,
-              JavaScript e framework como Next.js. Estou em busca de novas
-              oportunidades para aplicar minhas habilidades e contribuir para
-              projetos inovadores.
-            </Typography>
+            <Typography className={Styles.p}>{t.description}</Typography>
           </Box>
           <Box className={Styles.networks}>
             <Link href="https://WA.me/5581982383803" target="_blank">
               <Box className={Styles.icons}>
                 <Image
                   src="/whats.svg"
-                  alt="Whatsapp menssenger"
+                  alt={t.whatsappAlt}
                   layout="fill"
                   objectFit="contain"
                 />
@@ -53,7 +53,7 @@ const Home = () => {
               <Box className={Styles.icons}>
                 <Image
                   src="/linke.svg"
-                  alt="Linkedin menssenger"
+                  alt={t.linkedinAlt}
                   layout="fill"
                   objectFit="contain"
                 />
@@ -63,7 +63,7 @@ const Home = () => {
               <Box className={Styles.icons}>
                 <Image
                   src="/messenger.svg"
-                  alt="logo instagram"
+                  alt={t.instagramAlt}
                   layout="fill"
                   objectFit="contain"
                 />
@@ -74,14 +74,14 @@ const Home = () => {
               href="https://drive.google.com/file/d/1_WSwg-zzqJH3NzcYZZhV9QTHVrtqvVXt/view?usp=sharing"
               target="_blank"
             >
-              Curriculo
+              {t.resume}
             </Button>
             <Button
               className={Styles.button}
               href="https://drive.google.com/drive/folders/1zDTjqRBDQOFBmYn4MCzDyF1tl_CG-VV8?usp=drive_link"
               target="_blank"
             >
-              Certificados
+              {t.certificates}
             </Button>
           </Box>
         </Box>

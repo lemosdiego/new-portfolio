@@ -1,5 +1,3 @@
-"use client";
-
 import React, { useState } from "react";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
@@ -10,9 +8,15 @@ import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
 import Styles from "./card.module.css";
+import { useTranslation } from "../../../../context/TranslationContext";
+import { useLanguage } from "../../../../context/LanguageContext";
+import { projectTranslation } from "../../../../context/ProjectTranslation";
 
 const ImgMediaCard = ({ cardData }) => {
   const [open, setOpen] = useState(false);
+  const { translate } = useTranslation();
+  const { language } = useLanguage();
+  const t = projectTranslation[language];
 
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -29,15 +33,17 @@ const ImgMediaCard = ({ cardData }) => {
     p: 4,
   };
 
+  const { id, image, buttonLink2, buttonLink3 } = cardData;
+
   return (
     <>
       <Card className={Styles.containerCard}>
         <CardMedia
           className={Styles.containerImage}
           component="img"
-          alt={cardData.title}
+          alt={translate(id, "title")}
           height="140"
-          image={cardData.image}
+          image={image}
         />
         <CardContent className={Styles.containerDescription}>
           <Typography
@@ -46,31 +52,38 @@ const ImgMediaCard = ({ cardData }) => {
             component="div"
             className={Styles.h5}
           >
-            {cardData.title}
+            {translate(id, "title")}
           </Typography>
           <Typography variant="body2" className={Styles.p}>
-            {cardData.description}
+            {translate(id, "description")}
           </Typography>
         </CardContent>
         <CardActions className={Styles.containerButton}>
           <Button
             size="small"
-            href={cardData.buttonLink2}
+            href={buttonLink2}
             target="_blank"
             className={Styles.button}
+            id={`buttonLink2-${id}`}
           >
-            Repositório
+            {t.buttonLink2}
           </Button>
           <Button
             size="small"
-            href={cardData.buttonLink3}
+            href={buttonLink3}
             target="_blank"
             className={Styles.button}
+            id={`buttonLink3-${id}`}
           >
-            Deploy
+            {t.buttonLink3}
           </Button>
-          <Button size="small" onClick={handleOpen} className={Styles.button}>
-            Ver mais
+          <Button
+            size="small"
+            onClick={handleOpen}
+            className={Styles.button}
+            id={`more-${id}`}
+          >
+            {t.more}
           </Button>
         </CardActions>
       </Card>
@@ -81,12 +94,14 @@ const ImgMediaCard = ({ cardData }) => {
       >
         <Box sx={modalStyle} className={Styles.modal}>
           <Typography variant="h6" component="h2" className={Styles.h3}>
-            {cardData.modalTitle}
+            {translate(id, "modalTitle")}
           </Typography>
           <Typography sx={{ mt: 2 }} className={Styles.p}>
-            {cardData.modalDescription}
+            {translate(id, "modalDescription")}
           </Typography>
-          <Button onClick={handleClose}>Fechar</Button>
+          <Button onClick={handleClose} id={`close-${id}`}>
+            {t.close}
+          </Button>
         </Box>
       </Modal>
     </>

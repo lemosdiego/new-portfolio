@@ -1,42 +1,55 @@
-import { Box, Button, Typography } from "@mui/material";
-import Styles from "./contact.module.css";
-import Link from "next/link";
+"use client";
 
+import React from "react";
+import { Box, Typography } from "@mui/material";
+import Styles from "./contact.module.css";
+import { useLanguage } from "../../../../context/LanguageContext";
+import { contactTranslation } from "../../../../context/ContactsTranslation";
 const ContactPage = () => {
+  const { language } = useLanguage();
+  const t = contactTranslation[language];
+
   return (
     <section className={Styles.containerContact} id="contatos">
       <Box className={Styles.title}>
         <Typography variant="h2" className={Styles.h2}>
-          Contacts
+          {t.title}
         </Typography>
       </Box>
       <Box className={Styles.container}>
         <Box className={Styles.redes}>
           <Typography variant="h5" className={Styles.text}>
-            Vamos Conversar?
+            {t.description}
           </Typography>
           <Box className={Styles.descricao}>
             <ul>
               <a
                 href="https://www.linkedin.com/in/washington-lemos-033177186/"
-                target="blank"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <li>Linkedin</li>
+                <li>{t.linkedin}</li>
               </a>
               <a
                 href="https://www.instagram.com/washington.lemos_/?hl=pt-br"
-                target="blank"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <li>Instagram</li>
+                <li>{t.instagram}</li>
               </a>
               <a
                 href="https://www.facebook.com/washington.lemos.961/?locale=pt_BR"
-                target="blank"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <li>Facebook</li>
+                <li>{t.facebook}</li>
               </a>
-              <a href="https://WA.me/5581982383803" target="blank">
-                <li>Whatsapp</li>
+              <a
+                href="https://WA.me/5581982383803"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <li>{t.whatsapp}</li>
               </a>
             </ul>
           </Box>
@@ -53,7 +66,7 @@ const ContactPage = () => {
               <input
                 type="text"
                 name="name"
-                placeholder="Seu Nome"
+                placeholder={t.namePlaceholder}
                 required
                 maxLength={25}
                 minLength={2}
@@ -61,7 +74,7 @@ const ContactPage = () => {
               <input
                 type="text"
                 name="email"
-                placeholder="Seu Email"
+                placeholder={t.emailPlaceholder}
                 required
                 maxLength={50}
               />
@@ -69,9 +82,9 @@ const ContactPage = () => {
                 name="message"
                 required
                 maxLength={150}
-                placeholder="Deixe sua mensagem"
+                placeholder={t.messagePlaceholder}
               ></textarea>
-              <button>Enviar</button>
+              <button>{t.sendButton}</button>
             </form>
           </Box>
         </Box>

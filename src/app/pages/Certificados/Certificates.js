@@ -1,7 +1,14 @@
+"use client";
+
+import React from "react";
 import { Box, Typography } from "@mui/material";
 import Styles from "./certificados.module.css";
-
+import { useLanguage } from "../../../../context/LanguageContext";
+import { certificatesTranslations } from "../../../../context/CerificatesTranslation";
 const Certificates = () => {
+  const { language } = useLanguage();
+  const t = certificatesTranslations[language];
+
   const certificatesData = [
     { id: 1, imageUrl: "/Certificados/diploma.png", title: "Certificado 1" },
     { id: 2, imageUrl: "/Certificados/logica.png", title: "Certificado 2" },
@@ -12,10 +19,10 @@ const Certificates = () => {
   ];
 
   return (
-    <section className={Styles.Certificates} id="certificados">
+    <section className={Styles.certificates} id="certificados">
       <Box className={Styles.title}>
         <Typography variant="h2" className={Styles.h2}>
-          Certificates
+          {t.title}
         </Typography>
       </Box>
       <Box className={Styles.scrollContainer}>
