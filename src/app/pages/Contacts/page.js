@@ -62,7 +62,11 @@ const ContactPage = () => {
                 name="accessKey"
                 value="71bf7d3e-399a-41d9-a329-ea4cb2e65419"
               />
-              <input type="hidden" name="redirectTo" value="/" />
+              <input
+                type="hidden"
+                name="redirectTo"
+                value="https://new-portfolio-five-indol.vercel.app/"
+              />
               <input
                 type="text"
                 name="name"

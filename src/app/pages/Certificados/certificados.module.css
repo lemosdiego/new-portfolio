@@ -10,9 +10,9 @@
   display: flex;
   gap: 10px;
   padding: 10px;
-  width: max-content; /* Garantir que o slider se expanda conforme o conteúdo */
+  width: max-content;
   animation: scroll 100s linear infinite;
-  white-space: nowrap; /* Impede quebra de linha */
+  white-space: nowrap;
 }
 
 @keyframes scroll {
@@ -20,7 +20,7 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-100%); /* Movendo o slider para fora da tela */
+    transform: translateX(-100%);
   }
 }
 
