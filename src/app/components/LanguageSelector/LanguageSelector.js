@@ -13,31 +13,31 @@ const LanguageSelector = () => {
   return (
     <Box className={Styles.languageSelector}>
       <Box className={`${Styles.flag} ${Styles.br}`}>
-        <Button
+        <button
           color="inherit"
           className={Styles.p}
           onClick={() => handleLanguageChange("pt")}
         >
           PT
-        </Button>
+        </button>
       </Box>
       <Box className={`${Styles.flag} ${Styles.en}`}>
-        <Button
+        <button
           color="inherit"
           className={Styles.p}
           onClick={() => handleLanguageChange("en")}
         >
           EN
-        </Button>
+        </button>
       </Box>
       <Box className={`${Styles.flag} ${Styles.es}`}>
-        <Button
+        <button
           color="inherit"
           className={Styles.p}
           onClick={() => handleLanguageChange("es")}
         >
           ES
-        </Button>
+        </button>
       </Box>
     </Box>
   );
