@@ -1,15 +1,38 @@
 "use client";
 
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Box, Button, Typography } from "@mui/material";
 import { useLanguage } from "../../../../context/LanguageContext";
 import Styles from "./home.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import { homeTranslations } from "../../../../context/homeTranslations";
+
 const Home = () => {
   const { language } = useLanguage();
   const t = homeTranslations[language];
+
+  // Estado para controlar o texto digitado
+  const [typedText, setTypedText] = useState("");
+  const fullText = t.name;
+  const typingSpeed = 100;
+
+  useEffect(() => {
+    let index = 0;
+
+    // Função para atualizar o texto digitado
+    const type = () => {
+      if (index < fullText.length) {
+        setTypedText(fullText.slice(0, index + 1));
+        index++;
+        setTimeout(type, typingSpeed);
+      }
+    };
+
+    type();
+
+    return () => clearTimeout(type);
+  }, [fullText]);
 
   return (
     <section className={Styles.containerHome} id="home">
@@ -28,7 +51,7 @@ const Home = () => {
               {t.greeting}
             </Typography>
             <Typography variant="h1" className={Styles.h1}>
-              {t.name}
+              {typedText}
             </Typography>
             <Typography variant="h2" className={Styles.h2}>
               {t.jobTitle}
