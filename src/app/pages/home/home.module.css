@@ -367,11 +367,6 @@
 
 .containerHome {
   background-color: var(--container-background);
-  background-image: url(../../../../public/background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
 }
 
 [data-theme="light"] .containerHome {
@@ -387,11 +382,11 @@
 }
 
 [data-theme="light"] .containerPresentation {
-  --presentation-background: #ffffffe1;
+  --presentation-background: #ffffffc5;
 }
 
 [data-theme="dark"] .containerPresentation {
-  --presentation-background: #121212da;
+  --presentation-background: #121212c7;
 }
 
 .button {
