@@ -364,18 +364,14 @@
     font-size: 0.7rem;
   }
 }
-.containerPresentation {
-  box-shadow: var(--container-box-shadow);
-}
-[data-theme="light"] .containerPresentation {
-  --container-box-shadow: rgb(24, 25, 26) 0px 20px 30px -10px;
-}
 
-[data-theme="dark"] .containerPresentation {
-  --container-box-shadow: rgb(219, 221, 223) 0px 20px 30px -10px;
-}
 .containerHome {
   background-color: var(--container-background);
+  background-image: url(../../../../public/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 [data-theme="light"] .containerHome {
@@ -391,11 +387,11 @@
 }
 
 [data-theme="light"] .containerPresentation {
-  --presentation-background: #fff;
+  --presentation-background: #ffffffe1;
 }
 
 [data-theme="dark"] .containerPresentation {
-  --presentation-background: #121212;
+  --presentation-background: #121212da;
 }
 
 .button {

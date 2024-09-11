@@ -356,7 +356,9 @@
     justify-content: center;
   }
 }
-
+.p {
+  font-weight: 900;
+}
 .header {
   background-color: var(--header-background);
 }
