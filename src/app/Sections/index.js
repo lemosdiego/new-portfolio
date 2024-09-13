@@ -8,10 +8,11 @@ import About from "./About/page";
 import ContactPage from "./Contacts/page";
 import Certificates from "./Certificados/Certificates";
 import Service from "./Servicos/Service";
+import { Box } from "@mui/material";
 
 const Index = () => {
   return (
-    <>
+    <Box>
       <Header />
       <Home />
       <About />
@@ -21,7 +22,7 @@ const Index = () => {
       <Service />
       <ContactPage />
       <Footer />
-    </>
+    </Box>
   );
 };
 

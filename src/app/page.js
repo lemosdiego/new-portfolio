@@ -1,6 +1,4 @@
-import Index from "./pages";
-import { LanguageProvider } from "../../context/LanguageContext";
-import { TranslationProvider } from "../../context/TranslationContext";
+import Index from "./Sections";
 
 export default function Home() {
   return (
