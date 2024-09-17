@@ -6,30 +6,45 @@
     border-radius: 10px;
     color: var(--card-text-color);
     color: var(--card-description-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
   }
 
   .containerImage {
-    height: 40%;
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
   }
 
   .containerDescription {
-    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
+  .h5 {
+    font-size: 1.2rem;
+  }
+
+  .p {
+    font-size: 0.8rem;
+  }
   .containerButton {
-    height: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
   .button {
-    width: 90px;
-    height: 30px;
+    width: 80px;
+    height: 32px;
     color: #fff;
     font-size: 10px;
   }
-
   .modal {
     width: 90%;
     height: auto;
@@ -48,31 +63,48 @@
 
 @media (min-width: 481px) and (max-width: 768px) {
   .containerCard {
-    width: 330px;
+    width: 310px;
     height: auto;
     background: var(--card-background);
     border-radius: 10px;
     color: var(--card-text-color);
     color: var(--card-description-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
   }
 
   .containerImage {
-    height: 45%;
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
   }
 
   .containerDescription {
-    height: 35%;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
+  .h5 {
+    font-size: 1.2rem;
+  }
+
+  .p {
+    font-size: 0.8rem;
+  }
   .containerButton {
-    height: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
   .button {
-    width: 95px;
+    width: 85px;
     height: 32px;
     color: #fff;
     font-size: 10px;
@@ -99,14 +131,24 @@
     color: var(--card-text-color);
     color: var(--card-description-color);
     flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .containerImage {
-    height: 55%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
   }
 
   .containerDescription {
-    height: 25%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .h5 {
@@ -118,14 +160,14 @@
   }
 
   .containerButton {
-    height: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 10px;
   }
 
   .button {
-    width: 100px;
+    width: 90px;
     height: 35px;
     color: #fff;
     font-size: 10px;
@@ -146,18 +188,28 @@
     color: var(--card-text-color);
     color: var(--card-description-color);
     flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .containerImage {
-    height: 55%;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
   }
 
   .containerDescription {
-    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100px;
   }
 
   .h5 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .p {
@@ -165,14 +217,14 @@
   }
 
   .containerButton {
-    height: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 10px;
   }
 
   .button {
-    width: 100px;
+    width: 90px;
     height: 35px;
     color: #fff;
     font-size: 10px;
@@ -182,18 +234,6 @@
     background-color: var(--modal-background);
     transition: background-color 0.3s ease;
   }
-}
-.containerCard {
-  box-shadow: var(--container-box-shadow);
-}
-[data-theme="light"] .containerCard {
-  --container-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.69),
-    0 1px 2px rgba(0, 0, 0, 0.739);
-}
-
-[data-theme="dark"] .containerCard {
-  --container-box-shadow: 0 1px 3px rgba(250, 249, 249, 0.627),
-    0 1px 2px rgba(241, 236, 236, 0.709);
 }
 [data-theme="light"] .containerCard {
   --card-background: #ebe2e1;
