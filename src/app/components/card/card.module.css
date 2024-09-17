@@ -10,7 +10,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 30px;
   }
 
   .containerImage {
@@ -27,11 +27,11 @@
   }
 
   .h5 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .p {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   .containerButton {
     display: flex;
@@ -40,7 +40,7 @@
   }
 
   .button {
-    width: 80px;
+    width: 70px;
     height: 32px;
     color: #fff;
     font-size: 10px;
@@ -73,12 +73,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 30px;
   }
 
   .containerImage {
-    height: 210px;
-    width: 210px;
+    height: 190px;
+    width: 190px;
     border-radius: 50%;
   }
 
@@ -91,11 +91,11 @@
   }
 
   .h5 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .p {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   .containerButton {
     display: flex;
@@ -104,7 +104,7 @@
   }
 
   .button {
-    width: 85px;
+    width: 75px;
     height: 32px;
     color: #fff;
     font-size: 10px;
@@ -125,7 +125,6 @@
 @media (min-width: 769px) and (max-width: 1200px) {
   .containerCard {
     width: 300px;
-    height: 400px;
     background: var(--card-background);
     border-radius: 10px;
     color: var(--card-text-color);
@@ -135,6 +134,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 30px;
   }
 
   .containerImage {
@@ -152,7 +152,7 @@
   }
 
   .h5 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .p {
@@ -167,7 +167,7 @@
   }
 
   .button {
-    width: 90px;
+    width: 80px;
     height: 35px;
     color: #fff;
     font-size: 10px;
@@ -182,7 +182,6 @@
 @media (min-width: 1201px) {
   .containerCard {
     width: 300px;
-    height: 450px;
     background: var(--card-background);
     border-radius: 10px;
     color: var(--card-text-color);
@@ -192,11 +191,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 30px;
   }
 
   .containerImage {
-    height: 200px;
-    width: 200px;
+    height: 190px;
+    width: 190px;
     border-radius: 50%;
   }
 
@@ -209,11 +209,11 @@
   }
 
   .h5 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   .containerButton {
@@ -224,7 +224,7 @@
   }
 
   .button {
-    width: 90px;
+    width: 80px;
     height: 35px;
     color: #fff;
     font-size: 10px;
