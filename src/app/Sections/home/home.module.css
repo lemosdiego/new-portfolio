@@ -333,6 +333,7 @@
 
   .h2 {
     font-size: 2rem;
+    font-weight: 900;
   }
 
   .h6 {
@@ -363,6 +364,11 @@
 
 .containerHome {
   background-color: var(--container-background);
+  background-image: url(../../../../public/background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 [data-theme="light"] .containerHome {
@@ -378,11 +384,11 @@
 }
 
 [data-theme="light"] .containerPresentation {
-  --presentation-background: #ffffff;
+  --presentation-background: #ffffff80;
 }
 
 [data-theme="dark"] .containerPresentation {
-  --presentation-background: #121212;
+  --presentation-background: #121212cb;
 }
 
 .button {
@@ -401,9 +407,13 @@
   font-weight: 500;
   font-style: italic;
 }
+.h2 {
+  font-weight: 900;
+}
 .p {
   width: 95%;
   animation: fadeIn 7s forwards;
+  font-weight: 900;
 }
 @keyframes fadeIn {
   from {
