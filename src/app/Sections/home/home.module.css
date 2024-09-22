@@ -415,6 +415,9 @@
   animation: fadeIn 7s forwards;
   font-weight: 900;
 }
+.img {
+  filter: drop-shadow(-21px -19px 4px #000000);
+}
 @keyframes fadeIn {
   from {
     opacity: 0;
