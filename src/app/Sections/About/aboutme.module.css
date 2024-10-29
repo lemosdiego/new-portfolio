@@ -20,7 +20,7 @@
   animation: moveline 6s linear forwards;
 }
 
-.container {
+.content {
   padding: 10px 50px;
   position: relative;
   width: 50%;
@@ -28,23 +28,23 @@
   opacity: 0;
 }
 
-.container:nth-child(1) {
+.content:nth-child(1) {
   animation-delay: 0s;
 }
 
-.container:nth-child(2) {
+.content:nth-child(2) {
   animation-delay: 1s;
 }
 
-.container:nth-child(3) {
+.content:nth-child(3) {
   animation-delay: 2s;
 }
 
-.container:nth-child(4) {
+.content:nth-child(4) {
   animation-delay: 3s;
 }
 
-.container:nth-child(5) {
+.content:nth-child(5) {
   animation-delay: 4s;
 }
 
@@ -152,7 +152,7 @@
     left: 31px;
   }
 
-  .container {
+  .content {
     width: 100%;
     padding-left: 80px;
     padding-right: 25px;

@@ -24,7 +24,7 @@ const About = () => {
             {t.sections.map((section, index) => (
               <div
                 key={index}
-                className={`${Styles.container} ${
+                className={`${Styles.content} ${
                   index % 2 === 0 ? Styles.leftContainer : Styles.rightContainer
                 }`}
               >
